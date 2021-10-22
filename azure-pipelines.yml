@@ -8,7 +8,7 @@ trigger:
 
 variables:
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: 'armconnection'
+  dockerRegistryServiceConnection: 'sc01acr'
   imageRepository: 'webacr01'
   containerRegistry: 'webacr01.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
